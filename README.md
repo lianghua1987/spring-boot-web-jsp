@@ -27,3 +27,12 @@ spring.mvc.view.prefix=/WEB-INF/
 spring.mvc.view.suffix=.jsp
 
 * Start server
+
+
+Concept:
+
+jar: Execute main method in Springboot, start ioc container, created embedded servlet container
+
+war: start server, **start springboot application**[SpringBootServletInitializer], start ioc container
+
+Start servlet container, then start springboot
